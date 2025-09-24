@@ -1,0 +1,427 @@
+C:\Users\Johnny BKF\Desktop\fyp\bin\fyp.dll.config
+C:\Users\Johnny BKF\Desktop\fyp\bin\fyp.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\fyp.pdb
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csc.exe
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csc.exe.config
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csc.rsp
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csi.exe
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csi.exe.config
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\csi.rsp
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.AppContext.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Console.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Net.Http.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\vbc.exe
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\vbc.exe.config
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\vbc.rsp
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Johnny BKF\Desktop\fyp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Johnny BKF\Desktop\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Johnny BKF\Desktop\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.csproj.AssemblyReference.cache
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.csproj.CoreCompileInputs.cache
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.csproj.Up2Date
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.dll
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.pdb
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.csproj.GenerateResource.cache
+C:\Users\Johnny BKF\Desktop\fyp\obj\Debug\fyp.App_GlobalResources.Resources.resources
+C:\Users\Keith\Downloads\fyp\fyp\bin\fyp.dll.config
+C:\Users\Keith\Downloads\fyp\fyp\bin\fyp.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\fyp.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csc.exe
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csc.exe.config
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csc.rsp
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csi.exe
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csi.exe.config
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\csi.rsp
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.AppContext.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Console.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Net.Http.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\vbc.exe
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\vbc.exe.config
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\vbc.rsp
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Keith\Downloads\fyp\fyp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.csproj.AssemblyReference.cache
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.App_GlobalResources.Resources.resources
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.csproj.GenerateResource.cache
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.csproj.CoreCompileInputs.cache
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.csproj.Up2Date
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.dll
+C:\Users\Keith\Downloads\fyp\fyp\obj\Debug\fyp.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Firebase.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\FirebaseAdmin.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.Rest.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Auth.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Core.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\LiteDB.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Newtonsoft.Json.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Buffers.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.CodeDom.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Collections.Immutable.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Memory.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Numerics.Vectors.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Reactive.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.ValueTuple.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\Firebase.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\FirebaseAdmin.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.Rest.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Api.Gax.Rest.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Auth.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Auth.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Core.pdb
+C:\Users\Keith\Downloads\fyp\fyp\bin\Google.Apis.Core.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\LiteDB.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Newtonsoft.Json.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Buffers.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.CodeDom.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Collections.Immutable.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Memory.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Numerics.Vectors.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Reactive.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.ValueTuple.xml
+C:\Users\Keith\Downloads\fyp\fyp\bin\Firebase.Storage.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Keith\Downloads\fyp\fyp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.csproj.AssemblyReference.cache
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.App_GlobalResources.Resources.resources
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.csproj.GenerateResource.cache
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.csproj.CoreCompileInputs.cache
+C:\Users\Johnny BKF\Downloads\FYP\bin\x86\leptonica-1.82.0.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\x86\tesseract50.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\x64\leptonica-1.82.0.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\x64\tesseract50.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\fyp.dll.config
+C:\Users\Johnny BKF\Downloads\FYP\bin\fyp.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\fyp.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csc.exe
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csc.exe.config
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csc.rsp
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csi.exe
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csi.exe.config
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\csi.rsp
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.AppContext.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Console.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Net.Http.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\vbc.exe
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\vbc.exe.config
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\vbc.rsp
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Johnny BKF\Downloads\FYP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Johnny BKF\Downloads\FYP\bin\CloudinaryDotNet.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Firebase.Auth.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Firebase.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Firebase.Storage.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\FirebaseAdmin.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.Rest.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Auth.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Core.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Drive.v3.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\LiteDB.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Newtonsoft.Json.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Buffers.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.CodeDom.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Collections.Immutable.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Memory.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Numerics.Vectors.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Reactive.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.ValueTuple.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\Tesseract.dll
+C:\Users\Johnny BKF\Downloads\FYP\bin\CloudinaryDotNet.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Firebase.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\FirebaseAdmin.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.Rest.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Api.Gax.Rest.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Auth.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Auth.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Core.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Core.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Drive.v3.pdb
+C:\Users\Johnny BKF\Downloads\FYP\bin\Google.Apis.Drive.v3.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\LiteDB.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Newtonsoft.Json.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Buffers.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.CodeDom.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Collections.Immutable.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Memory.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Numerics.Vectors.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Reactive.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\System.ValueTuple.xml
+C:\Users\Johnny BKF\Downloads\FYP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.csproj.Up2Date
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.dll
+C:\Users\Johnny BKF\Downloads\FYP\obj\Debug\fyp.pdb
+C:\Users\Keith\Downloads\FYP\fyp\bin\x86\leptonica-1.82.0.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\x86\tesseract50.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\x64\leptonica-1.82.0.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\x64\tesseract50.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\CloudinaryDotNet.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\Firebase.Auth.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\Google.Apis.Drive.v3.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\Tesseract.dll
+C:\Users\Keith\Downloads\FYP\fyp\bin\CloudinaryDotNet.xml
+C:\Users\Keith\Downloads\FYP\fyp\bin\Google.Apis.Drive.v3.pdb
+C:\Users\Keith\Downloads\FYP\fyp\bin\Google.Apis.Drive.v3.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\x86\leptonica-1.82.0.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\x86\tesseract50.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\x64\leptonica-1.82.0.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\x64\tesseract50.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\fyp.dll.config
+C:\Users\User\Downloads\fyp (3)\fyp\bin\fyp.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\fyp.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csc.exe
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csc.exe.config
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csc.rsp
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csi.exe
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csi.exe.config
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\csi.rsp
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.AppContext.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Console.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\vbc.exe
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\vbc.exe.config
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\vbc.rsp
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Downloads\fyp (3)\fyp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Downloads\fyp (3)\fyp\bin\CloudinaryDotNet.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Firebase.Auth.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Firebase.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Firebase.Storage.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\FirebaseAdmin.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.Rest.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Auth.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Core.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Drive.v3.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\LiteDB.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Newtonsoft.Json.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Buffers.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.CodeDom.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Collections.Immutable.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Memory.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Numerics.Vectors.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Reactive.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.ValueTuple.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Tesseract.dll
+C:\Users\User\Downloads\fyp (3)\fyp\bin\CloudinaryDotNet.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Firebase.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\FirebaseAdmin.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.Rest.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Api.Gax.Rest.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Auth.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Auth.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Core.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Core.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Drive.v3.pdb
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Google.Apis.Drive.v3.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\LiteDB.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Newtonsoft.Json.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Buffers.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.CodeDom.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Collections.Immutable.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Memory.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Numerics.Vectors.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Reactive.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\System.ValueTuple.xml
+C:\Users\User\Downloads\fyp (3)\fyp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.App_GlobalResources.Resources.resources
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.csproj.GenerateResource.cache
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.csproj.CopyComplete
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.dll
+C:\Users\User\Downloads\fyp (3)\fyp\obj\Debug\fyp.pdb
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.csproj.AssemblyReference.cache
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.App_GlobalResources.Resources.resources
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.csproj.GenerateResource.cache
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.csproj.CoreCompileInputs.cache
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.dll
+C:\Users\Johnny BKF\Downloads\RSW_BEH KAI FENG_Project Folder\Project files\fyp\obj\Debug\fyp.pdb

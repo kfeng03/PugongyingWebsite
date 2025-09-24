@@ -1,0 +1,439 @@
+﻿/* Shared CSS for all Dandelion Education Workshop pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Video Background */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+    .video-background video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Fallback background */
+    .video-background::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        z-index: -1;
+    }
+
+/* Navigation - Base Styles */
+nav {
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        cursor: pointer;
+    }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: lightslategrey;
+        }
+
+/* Mobile Menu Button */
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+    .mobile-menu-btn:hover {
+        color: lightslategrey;
+    }
+
+/* Typography - Base */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    opacity: 0.9;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .hero h1,
+    .hero h2,
+    .hero h3 {
+        font-weight: bold;
+        text-shadow: 5px 5px 5px black;
+    }
+
+/* Buttons */
+.btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 2rem auto 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+    }
+
+/* About section styling */
+.about-values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.value-item {
+    text-align: center;
+    padding: 1rem;
+}
+
+    .value-item h4 {
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+/* Animations */
+html {
+    scroll-behavior: smooth;
+}
+
+.fade-in {
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================================
+   DESKTOP STYLES (16:9 ratio - 1024px+)
+   ======================================== */
+@media (min-width: 1024px) {
+    /* Main Content - Desktop with Scroll Snap */
+    .main-content {
+        width: auto;
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+    }
+
+    .section {
+        height: calc(100vh + 80px); /* Account for nav height */
+        margin-top: 80px; /* Push content down below nav */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        position: relative;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+    }
+
+    /* Desktop Scroll Indicators */
+    .scroll-indicators {
+        position: fixed;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .scroll-indicator {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .scroll-indicator.active {
+            background: white;
+            transform: scale(1.2);
+        }
+
+    /* Desktop Content Sections */
+    .content-section {
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(15px);
+        width: 100%;
+        max-width: 1000px;
+        padding: 4rem;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 70vh;
+        max-height: 80vh;
+    }
+
+        .content-section h3 {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .content-section p {
+            line-height: 1.8;
+            color: white;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+
+    /* Desktop Navigation */
+    .nav-links {
+        display: flex;
+    }
+
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* ========================================
+   MOBILE STYLES (9:16 ratio - up to 1023px)
+   ======================================== */
+@media (max-width: 1023px) {
+    /* Mobile Navigation */
+    nav {
+        padding: 1rem;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem 0;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        display: none;
+        border-radius: 0 0 15px 15px;
+    }
+
+        .nav-links.mobile-active {
+            display: flex;
+        }
+
+        .nav-links li {
+            padding: 0.75rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+            .nav-links li:last-child {
+                border-bottom: none;
+            }
+
+        .nav-links a {
+            display: block;
+            width: 100%;
+            font-size: 1.1rem;
+            color: white;
+        }
+
+    /* Mobile Main Content - Normal Scrolling */
+    .main-content {
+        padding-top: 0;
+        /* Remove scroll snap properties for mobile */
+    }
+
+    .section {
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        position: relative;
+    }
+
+    /* Hide Desktop Scroll Indicators */
+    .scroll-indicators {
+        display: none;
+    }
+
+    /* Mobile Content Sections */
+    .content-section {
+        background: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(15px);
+        width: 100%;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 60vh;
+        max-height: none;
+    }
+
+        .content-section h3 {
+            font-size: 2rem;
+            color: white;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .content-section p {
+            line-height: 1.6;
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            text-align: left;
+        }
+
+    /* Mobile Typography */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Mobile About Values */
+    .about-values {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    .value-item h4 {
+        font-size: 1.1rem;
+    }
+}
+
+/* ========================================
+   EXTRA SMALL MOBILE (320px - 480px)
+   ======================================== */
+@media (max-width: 480px) {
+    .content-section {
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+
+        .content-section h3 {
+            font-size: 1.8rem;
+        }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Portfolio.Master.cs" Inherits="PGY.Site1" %>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <asp:ContentPlaceHolder ID="headContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="shared-styles.css">
+
+</head>
+<body>
+    <!-- Video Background -->
+    <asp:ContentPlaceholder ID="background" runat="server">>
+    </asp:ContentPlaceholder>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><a href="Homepage.aspx"><img src="images/logowhitePGY.png" style="height:50px;"/></a></div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="Homepage.aspx">主页</a></li>
+<%--                <li><a href="#e-leader">e代领袖</a></li>--%>
+                <li><a href="ARP.aspx">卓越领袖认证</a></li>
+                <li><a href="edu.aspx">升学辅导</a></li>
+                <li><a href="About.aspx">关于我们</a></li>
+                <li><a href="../OMTS_Pages/OMTS_AM/AM_LoginGoogle.aspx">OMTS</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="content" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <script src="shared-script.js"></script>
+
+</body>
+</html>

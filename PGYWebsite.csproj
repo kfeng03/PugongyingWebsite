@@ -1,0 +1,826 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2161EC2-6BA3-4611-86FD-4AF078BA54F6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>fyp</RootNamespace>
+    <AssemblyName>fyp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44330</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CloudinaryDotNet, Version=1.27.4.0, Culture=neutral, PublicKeyToken=c8234dc617ae7841, processorArchitecture=MSIL">
+      <HintPath>packages\CloudinaryDotNet.1.27.4\lib\net452\CloudinaryDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FirebaseDatabase.net.4.2.0\lib\netstandard2.0\Firebase.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Firebase.Auth.1.0.0\lib\netstandard1.1\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Storage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\FirebaseStorage.net.1.0.3\lib\netstandard1.1\Firebase.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebaseAdmin, Version=2.4.1.0, Culture=neutral, PublicKeyToken=97c8d00c348326ed, processorArchitecture=MSIL">
+      <HintPath>packages\FirebaseAdmin.2.4.1\lib\net461\FirebaseAdmin.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax, Version=4.8.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Api.Gax.4.8.0\lib\net462\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Rest, Version=4.4.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Api.Gax.Rest.4.4.0\lib\net462\Google.Api.Gax.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.1.69.0\lib\net462\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Auth.1.69.0\lib\net462\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Core.1.69.0\lib\net462\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Drive.v3, Version=1.60.0.3034, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Apis.Drive.v3.1.60.0.3034\lib\net45\Google.Apis.Drive.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB, Version=4.1.4.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>packages\LiteDB.4.1.4\lib\net40\LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=112.1.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>packages\RestSharp.112.1.0\lib\net471\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.CodeDom.7.0.0\lib\net462\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.8.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reactive.4.0.0\lib\net46\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.4, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.8.0.4\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Tesseract, Version=5.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Tesseract.5.2.0\lib\net47\Tesseract.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\client_id.json" />
+    <Content Include="GeneralStyles - Copy.css" />
+    <Content Include="OMTS_Pages\OMTS_Admin\Admin_AccList.aspx" />
+    <Content Include="OMTS_Pages\OMTS_Admin\Admin_Customization.aspx" />
+    <Content Include="OMTS_Pages\OMTS_Admin\Admin_TemplateEditorInterface.aspx" />
+    <Content Include="OMTS_Pages\OMTS_Admin\Admin_TemplateManager.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_CreateAccount.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_ForgotPassword.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_LoginEmail.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_LoginGoogle.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_UpdateAccountSecurity.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_UpdatePersonalInfo.aspx" />
+    <Content Include="OMTS_Pages\OMTS_AM\AM_verifyOTP.aspx" />
+    <Content Include="App_Data\fyp-omts-firebase-adminsdk-fbsvc-ff309fe44b.json" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_AddEvent.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_CompletedEvent.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_EditEvent.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_EventDetails.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_EventFeedbacks.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_EventManagement.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_EventParticipants.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_GenerateCertificate.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_JoinEvent.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_MyEvents.aspx" />
+    <Content Include="OMTS_Pages\OMTS_EM\EM_RecycleBin.aspx" />
+    <Content Include="Images\default-profile.png" />
+    <Content Include="Images\update-icon.jpg" />
+    <Content Include="LoginStatusLabel.ascx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_AchievementApplication.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_AchievementDashboard.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_AwardBadges.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_EditBadge.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_Information.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_Materials.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_ReviewApp.aspx" />
+    <Content Include="OMTS_Pages\OMTS_MA\MA_ReviewAppDetail.aspx" />
+    <Content Include="OMTS_Pages\OMTS_Admin\Admin_CreateTemplate.aspx" />
+    <Content Include="GeneralStyles.css" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_AddCourse.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_CompletedCourse.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_CourseDetails.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_CourseManagement.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_CourseParticipants.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_CourseRecommendations.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_Courses.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_EditCourse.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_JoinCourse.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_RecycleBin.aspx" />
+    <Content Include="OMTS_Pages\OMTS_OC\OC_UserInterest.aspx" />
+    <Content Include="Portfolio_Pages\About.aspx" />
+    <Content Include="Portfolio_Pages\ARP.aspx" />
+    <Content Include="Portfolio_Pages\Callback.aspx" />
+    <Content Include="Portfolio_Pages\edu.aspx" />
+    <Content Include="Portfolio_Pages\Homepage.aspx" />
+    <Content Include="Portfolio_Pages\images\aboutBG0.jpg" />
+    <Content Include="Portfolio_Pages\images\ARP\BKF.png" />
+    <Content Include="Portfolio_Pages\images\ARP\TBH.png" />
+    <Content Include="Portfolio_Pages\images\ARP\TBI.png" />
+    <Content Include="Portfolio_Pages\images\ARP\TLY.png" />
+    <Content Include="Portfolio_Pages\images\Home\Home_1.png" />
+    <Content Include="Portfolio_Pages\images\Home\Home_2.png" />
+    <Content Include="Portfolio_Pages\images\Home\Home_3.png" />
+    <Content Include="Portfolio_Pages\images\Home\Home_4.png" />
+    <Content Include="Portfolio_Pages\images\logowhitePGY.png" />
+    <Content Include="Portfolio_Pages\images\socialIcon\logo_dy.png" />
+    <Content Include="Portfolio_Pages\images\socialIcon\logo_fb.png" />
+    <Content Include="Portfolio_Pages\images\socialIcon\logo_ig.png" />
+    <Content Include="Portfolio_Pages\images\socialIcon\logo_xhs.png" />
+    <Content Include="Portfolio_Pages\images\socialIcon\logo_yt.png" />
+    <Content Include="Portfolio_Pages\PaymentPrep.aspx" />
+    <Content Include="Portfolio_Pages\PaymentReturn.aspx" />
+    <Content Include="Portfolio_Pages\RegistrationForm.aspx" />
+    <Content Include="Portfolio_Pages\shared-script.js" />
+    <Content Include="Portfolio_Pages\shared-styles.css" />
+    <Content Include="Portfolio_Pages\videos\arp-1.mp4" />
+    <Content Include="Portfolio_Pages\videos\background_home-1.mp4" />
+    <Content Include="Portfolio_Pages\videos\edu.mp4" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_AccList.aspx.cs">
+      <DependentUpon>Admin_AccList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_AccList.aspx.designer.cs">
+      <DependentUpon>Admin_AccList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_Customization.aspx.cs">
+      <DependentUpon>Admin_Customization.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_Customization.aspx.designer.cs">
+      <DependentUpon>Admin_Customization.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_TemplateEditorInterface.aspx.cs">
+      <DependentUpon>Admin_TemplateEditorInterface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_TemplateEditorInterface.aspx.designer.cs">
+      <DependentUpon>Admin_TemplateEditorInterface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_TemplateManager.aspx.cs">
+      <DependentUpon>Admin_TemplateManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_TemplateManager.aspx.designer.cs">
+      <DependentUpon>Admin_TemplateManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_CreateAccount.aspx.cs">
+      <DependentUpon>AM_CreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_CreateAccount.aspx.designer.cs">
+      <DependentUpon>AM_CreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_ForgotPassword.aspx.cs">
+      <DependentUpon>AM_ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_ForgotPassword.aspx.designer.cs">
+      <DependentUpon>AM_ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_LoginEmail.aspx.cs">
+      <DependentUpon>AM_LoginEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_LoginEmail.aspx.designer.cs">
+      <DependentUpon>AM_LoginEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_LoginGoogle.aspx.cs">
+      <DependentUpon>AM_LoginGoogle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_LoginGoogle.aspx.designer.cs">
+      <DependentUpon>AM_LoginGoogle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_UpdateAccountSecurity.aspx.cs">
+      <DependentUpon>AM_UpdateAccountSecurity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_UpdateAccountSecurity.aspx.designer.cs">
+      <DependentUpon>AM_UpdateAccountSecurity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_UpdatePersonalInfo.aspx.cs">
+      <DependentUpon>AM_UpdatePersonalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_UpdatePersonalInfo.aspx.designer.cs">
+      <DependentUpon>AM_UpdatePersonalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_verifyOTP.aspx.cs">
+      <DependentUpon>AM_verifyOTP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_AM\AM_verifyOTP.aspx.designer.cs">
+      <DependentUpon>AM_verifyOTP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resources.zh.designer.cs">
+      <DependentUpon>Resources.zh.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CategoryUtility.cs" />
+    <Compile Include="CloudinaryHelper.cs" />
+    <Compile Include="FirebaseHelper.cs" />
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_AddEvent.aspx.cs">
+      <DependentUpon>EM_AddEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_AddEvent.aspx.designer.cs">
+      <DependentUpon>EM_AddEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_CompletedEvent.aspx.cs">
+      <DependentUpon>EM_CompletedEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_CompletedEvent.aspx.designer.cs">
+      <DependentUpon>EM_CompletedEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EditEvent.aspx.cs">
+      <DependentUpon>EM_EditEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EditEvent.aspx.designer.cs">
+      <DependentUpon>EM_EditEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventDetails.aspx.cs">
+      <DependentUpon>EM_EventDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventDetails.aspx.designer.cs">
+      <DependentUpon>EM_EventDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventFeedbacks.aspx.cs">
+      <DependentUpon>EM_EventFeedbacks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventFeedbacks.aspx.designer.cs">
+      <DependentUpon>EM_EventFeedbacks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventManagement.aspx.cs">
+      <DependentUpon>EM_EventManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventManagement.aspx.designer.cs">
+      <DependentUpon>EM_EventManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventParticipants.aspx.cs">
+      <DependentUpon>EM_EventParticipants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_EventParticipants.aspx.designer.cs">
+      <DependentUpon>EM_EventParticipants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_GenerateCertificate.aspx.cs">
+      <DependentUpon>EM_GenerateCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_GenerateCertificate.aspx.designer.cs">
+      <DependentUpon>EM_GenerateCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_JoinEvent.aspx.cs">
+      <DependentUpon>EM_JoinEvent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_JoinEvent.aspx.designer.cs">
+      <DependentUpon>EM_JoinEvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_MyEvents.aspx.cs">
+      <DependentUpon>EM_MyEvents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_MyEvents.aspx.designer.cs">
+      <DependentUpon>EM_MyEvents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_RecycleBin.aspx.cs">
+      <DependentUpon>EM_RecycleBin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_EM\EM_RecycleBin.aspx.designer.cs">
+      <DependentUpon>EM_RecycleBin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeminiFieldDetector.cs" />
+    <Compile Include="Global.asax.cs" />
+    <Compile Include="ILocalizable.cs" />
+    <Compile Include="LoginStatusLabel.ascx.cs">
+      <DependentUpon>LoginStatusLabel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginStatusLabel.ascx.designer.cs">
+      <DependentUpon>LoginStatusLabel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AchievementApplication.aspx.cs">
+      <DependentUpon>MA_AchievementApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AchievementApplication.aspx.designer.cs">
+      <DependentUpon>MA_AchievementApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AchievementDashboard.aspx.cs">
+      <DependentUpon>MA_AchievementDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AchievementDashboard.aspx.designer.cs">
+      <DependentUpon>MA_AchievementDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AwardBadges.aspx.cs">
+      <DependentUpon>MA_AwardBadges.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_AwardBadges.aspx.designer.cs">
+      <DependentUpon>MA_AwardBadges.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_EditBadge.aspx.cs">
+      <DependentUpon>MA_EditBadge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_EditBadge.aspx.designer.cs">
+      <DependentUpon>MA_EditBadge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_Information.aspx.cs">
+      <DependentUpon>MA_Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_Information.aspx.designer.cs">
+      <DependentUpon>MA_Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_Materials.aspx.cs">
+      <DependentUpon>MA_Materials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_Materials.aspx.designer.cs">
+      <DependentUpon>MA_Materials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_ReviewApp.aspx.cs">
+      <DependentUpon>MA_ReviewApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_ReviewApp.aspx.designer.cs">
+      <DependentUpon>MA_ReviewApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_ReviewAppDetail.aspx.cs">
+      <DependentUpon>MA_ReviewAppDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_MA\MA_ReviewAppDetail.aspx.designer.cs">
+      <DependentUpon>MA_ReviewAppDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_CreateTemplate.aspx.cs">
+      <DependentUpon>Admin_CreateTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_Admin\Admin_CreateTemplate.aspx.designer.cs">
+      <DependentUpon>Admin_CreateTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_AddCourse.aspx.cs">
+      <DependentUpon>OC_AddCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_AddCourse.aspx.designer.cs">
+      <DependentUpon>OC_AddCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CompletedCourse.aspx.cs">
+      <DependentUpon>OC_CompletedCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CompletedCourse.aspx.designer.cs">
+      <DependentUpon>OC_CompletedCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseDetails.aspx.cs">
+      <DependentUpon>OC_CourseDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseDetails.aspx.designer.cs">
+      <DependentUpon>OC_CourseDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseManagement.aspx.cs">
+      <DependentUpon>OC_CourseManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseManagement.aspx.designer.cs">
+      <DependentUpon>OC_CourseManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseParticipants.aspx.cs">
+      <DependentUpon>OC_CourseParticipants.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseParticipants.aspx.designer.cs">
+      <DependentUpon>OC_CourseParticipants.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseRecommendations.aspx.cs">
+      <DependentUpon>OC_CourseRecommendations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_CourseRecommendations.aspx.designer.cs">
+      <DependentUpon>OC_CourseRecommendations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_Courses.aspx.cs">
+      <DependentUpon>OC_Courses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_Courses.aspx.designer.cs">
+      <DependentUpon>OC_Courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_EditCourse.aspx.cs">
+      <DependentUpon>OC_EditCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_EditCourse.aspx.designer.cs">
+      <DependentUpon>OC_EditCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_JoinCourse.aspx.cs">
+      <DependentUpon>OC_JoinCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_JoinCourse.aspx.designer.cs">
+      <DependentUpon>OC_JoinCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_RecycleBin.aspx.cs">
+      <DependentUpon>OC_RecycleBin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_RecycleBin.aspx.designer.cs">
+      <DependentUpon>OC_RecycleBin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_UserInterest.aspx.cs">
+      <DependentUpon>OC_UserInterest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OMTS_Pages\OMTS_OC\OC_UserInterest.aspx.designer.cs">
+      <DependentUpon>OC_UserInterest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\ARP.aspx.cs">
+      <DependentUpon>ARP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\ARP.aspx.designer.cs">
+      <DependentUpon>ARP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Callback.aspx.cs">
+      <DependentUpon>Callback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Callback.aspx.designer.cs">
+      <DependentUpon>Callback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\edu.aspx.cs">
+      <DependentUpon>edu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\edu.aspx.designer.cs">
+      <DependentUpon>edu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\PaymentPrep.aspx.cs">
+      <DependentUpon>PaymentPrep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\PaymentPrep.aspx.designer.cs">
+      <DependentUpon>PaymentPrep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\PaymentReturn.aspx.cs">
+      <DependentUpon>PaymentReturn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\PaymentReturn.aspx.designer.cs">
+      <DependentUpon>PaymentReturn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Portfolio.Master.cs">
+      <DependentUpon>Portfolio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\Portfolio.Master.designer.cs">
+      <DependentUpon>Portfolio.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio_Pages\RegistrationForm.aspx.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio_Pages\RegistrationForm.aspx.designer.cs">
+      <DependentUpon>RegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SiteSettingsHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\pgy-omts-firebase-adminsdk-fbsvc-3e8c3d5cc9.json" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Portfolio_Pages\Portfolio.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resources.zh.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resources.zh.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\token\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7351</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44330/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('packages\Tesseract.5.2.0\build\Tesseract.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Tesseract.5.2.0\build\Tesseract.targets'))" />
+  </Target>
+  <Import Project="packages\Tesseract.5.2.0\build\Tesseract.targets" Condition="Exists('packages\Tesseract.5.2.0\build\Tesseract.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Button_ResetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password:</value>
+  </data>
+  <data name="Text_PasswordVerificationInstructions" xml:space="preserve">
+    <value>For security purposes, please enter your current password to continue.</value>
+  </data>
+  <data name="Heading_VerifyIdentity" xml:space="preserve">
+    <value>Verify Your Identity</value>
+  </data>
+  <data name="Text_DangerZoneWarning" xml:space="preserve">
+    <value>Warning: Disabling your account will revoke your access to the system. This action cannot be easily undone and may require administrator assistance to restore access.</value>
+  </data>
+  <data name="Text_DangerZone" xml:space="preserve">
+    <value>Danger Zone</value>
+  </data>
+  <data name="Error_IncorrectPassword" xml:space="preserve">
+    <value>The password you entered is incorrect. Please try again.</value>
+  </data>
+  <data name="Error_PasswordRequired" xml:space="preserve">
+    <value>Please enter your current password.</value>
+  </data>
+  <data name="Success_PasswordResetSent" xml:space="preserve">
+    <value>Password reset email sent. Please check your inbox.</value>
+  </data>
+  <data name="Error_WaitBeforeReset" xml:space="preserve">
+    <value>Please wait 1 minute before requesting another password reset.</value>
+  </data>
+  <data name="Confirmation_DeleteAccount" xml:space="preserve">
+    <value>WARNING: This will permanently disable your account. Are you absolutely sure?</value>
+  </data>
+  <data name="Button_Login" xml:space="preserve">
+    <value>Log In</value>
+    <comment>Text for the "Log In" button.</comment>
+  </data>
+  <data name="Button_SendOTP" xml:space="preserve">
+    <value>Send OTP</value>
+    <comment>Text for the "Send OTP" button.</comment>
+  </data>
+  <data name="Button_SetDefault" xml:space="preserve">
+    <value>Set as Default Language</value>
+    <comment>Button text for setting a default option.</comment>
+  </data>
+  <data name="Button_Upload" xml:space="preserve">
+    <value>Upload</value>
+    <comment>Button text for uploading files.</comment>
+  </data>
+  <data name="Heading_ContentCus" xml:space="preserve">
+    <value>Content Customization</value>
+    <comment>title for content customization section</comment>
+  </data>
+  <data name="Heading_GeneralSettings" xml:space="preserve">
+    <value>General Settings</value>
+    <comment>title for general settings section</comment>
+  </data>
+  <data name="Heading_ListOfUserAccounts" xml:space="preserve">
+    <value>List of User Accounts</value>
+    <comment>heading </comment>
+  </data>
+  <data name="Hyperlink_Achievements" xml:space="preserve">
+    <value>Manage Achievements Content</value>
+    <comment>Hyperlink text for achievements customization.</comment>
+  </data>
+  <data name="Hyperlink_Courses" xml:space="preserve">
+    <value>Manage Courses Content</value>
+    <comment>Hyperlink text for courses customization.</comment>
+  </data>
+  <data name="Hyperlink_Events" xml:space="preserve">
+    <value>Manage Events Content</value>
+    <comment>Hyperlink text for events customization.</comment>
+  </data>
+  <data name="Label_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>appear in various pages</comment>
+  </data>
+  <data name="Label_Font" xml:space="preserve">
+    <value>Font</value>
+    <comment>Label for selecting a font.</comment>
+  </data>
+  <data name="Label_Languages" xml:space="preserve">
+    <value>Languages</value>
+    <comment>Label for language options.</comment>
+  </data>
+  <data name="Label_OrgLogo" xml:space="preserve">
+    <value>Organization Logo</value>
+    <comment>Label for uploading the organization logo.</comment>
+  </data>
+  <data name="Label_OrgName" xml:space="preserve">
+    <value>Organization Name</value>
+    <comment>Label for the organization name field.</comment>
+  </data>
+  <data name="Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment>appear in various pages</comment>
+  </data>
+  <data name="Label_PinNumber" xml:space="preserve">
+    <value>Pin Number</value>
+    <comment>Login page label for the PIN input field.</comment>
+  </data>
+  <data name="Label_Pw" xml:space="preserve">
+    <value>Password</value>
+    <comment>appear in various pages</comment>
+  </data>
+  <data name="Label_Theme" xml:space="preserve">
+    <value>Theme</value>
+    <comment>Label for selecting a theme.</comment>
+  </data>
+  <data name="Link_DeactivateAccount" xml:space="preserve">
+    <value>Deactivate Account</value>
+    <comment>Admin soft delete acc</comment>
+  </data>
+  <data name="Link_LoginEmail" xml:space="preserve">
+    <value>Click here to Login via Email</value>
+    <comment>Text for the hyperlink to login via email.</comment>
+  </data>
+  <data name="Link_ResetPassword" xml:space="preserve">
+    <value>Send Reset Password Link</value>
+    <comment>Admin send Reset Password Link</comment>
+  </data>
+  <data name="Login1_Heading" xml:space="preserve">
+    <value>Login via Phone Number</value>
+    <comment>Heading text for the Login page.</comment>
+  </data>
+  <data name="Login1_Info" xml:space="preserve">
+    <value>First time here? You can login via Phone Number directly!</value>
+    <comment>Informational text on the Login page.</comment>
+  </data>
+  <data name="Login2_Heading" xml:space="preserve">
+    <value>Login via Email</value>
+    <comment>Heading text for the Login page.</comment>
+  </data>
+  <data name="Login2_Info" xml:space="preserve">
+    <value>You can also login via Phone Number directly!</value>
+    <comment>Informational text on the Login page.</comment>
+  </data>
+  <data name="Login_Page_Title" xml:space="preserve">
+    <value>Login</value>
+    <comment>Title for the Login page.</comment>
+  </data>
+  <data name="Nav_Achievements" xml:space="preserve">
+    <value>Achievements</value>
+    <comment>Nav bar item for achievements.</comment>
+  </data>
+  <data name="Nav_AdminSettings" xml:space="preserve">
+    <value>Admin Settings</value>
+    <comment>For admin-only settings in the nav bar.</comment>
+  </data>
+  <data name="Nav_Courses" xml:space="preserve">
+    <value>Courses</value>
+    <comment>Nav bar item for courses.</comment>
+  </data>
+  <data name="Nav_Events" xml:space="preserve">
+    <value>Events</value>
+    <comment>Nav bar item for events.</comment>
+  </data>
+  <data name="Otp_PinNumber_Label" xml:space="preserve">
+    <value>Enter the 6-digit code</value>
+    <comment>Label for PIN input field</comment>
+  </data>
+  <data name="Otp_ResendCode_Link" xml:space="preserve">
+    <value>Didn’t receive a code? Click here to send a new code</value>
+    <comment>Link for resending OTP</comment>
+  </data>
+  <data name="Otp_Verification_Heading" xml:space="preserve">
+    <value>Before we proceed with the changes...</value>
+    <comment>OTP verification page heading</comment>
+  </data>
+  <data name="Otp_Verification_Subtext" xml:space="preserve">
+    <value>Please enter the 6-digit code sent to you at {0}</value>
+    <comment>Subtext for OTP code input, with a placeholder for the phone number</comment>
+  </data>
+  <data name="Otp_Verify_Button" xml:space="preserve">
+    <value>Verify</value>
+    <comment>Button text for verifying OTP</comment>
+  </data>
+  <data name="SideBtnAM" xml:space="preserve">
+    <value>Account Management</value>
+    <comment>button at the side in Admin Settings</comment>
+  </data>
+  <data name="SideBtnWC" xml:space="preserve">
+    <value>Website Customisation</value>
+    <comment>button at the side in Admin Settings</comment>
+  </data>
+  <data name="TableHeader_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_Role" xml:space="preserve">
+    <value>Role</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_UserID" xml:space="preserve">
+    <value>User ID</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_Username" xml:space="preserve">
+    <value>Username</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="Welcome_Message" xml:space="preserve">
+    <value>Welcome, {0}!</value>
+    <comment>Dynamic greeting message.</comment>
+  </data>
+  <data name="SideBtnAS" xml:space="preserve">
+    <value>Account Security</value>
+    <comment>button at the side in Personal Acc Mgmt</comment>
+  </data>
+  <data name="SideBtnPI" xml:space="preserve">
+    <value>Personal Information</value>
+    <comment>button at the side in Personal Acc Mgmt</comment>
+  </data>
+  <data name="Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>Edit button text</comment>
+  </data>
+  <data name="Button_DeleteAccount" xml:space="preserve">
+    <value>Delete Account</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Button_SaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Heading_PersonalInfo" xml:space="preserve">
+    <value>My Personal Information</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Heading_UpdateAccountSecurity" xml:space="preserve">
+    <value>Update Account Security Settings</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Hyperlink_AchievementDashboardText" xml:space="preserve">
+    <value>Check out your Achievement Dashboard to learn more!</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="InterestNote" xml:space="preserve">
+    <value>We will recommend events and courses based on your preference settings!</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_AreaOfInterest" xml:space="preserve">
+    <value>Area of Interest</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_CurrentLevel" xml:space="preserve">
+    <value>Current Level</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_ProfilePicture" xml:space="preserve">
+    <value>Profile Picture</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_Role" xml:space="preserve">
+    <value>Role</value>
+    <comment>In Personal Info and Review Application page</comment>
+  </data>
+  <data name="Label_SecurityAnswer" xml:space="preserve">
+    <value>Answer</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_SecurityQuestion" xml:space="preserve">
+    <value>Security Question</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_Username" xml:space="preserve">
+    <value>Username</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Password_Requirements" xml:space="preserve">
+    <value>Use at least 8 characters, with a mixture of Uppercase and Lowercase characters and special symbols.</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_1" xml:space="preserve">
+    <value>What is your mother's maiden name?</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_2" xml:space="preserve">
+    <value>What was the name of your first pet?</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_3" xml:space="preserve">
+    <value>What is your favorite color?</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="UsernameValue" xml:space="preserve">
+    <value>{0}</value>
+    <comment>Display the username dynamically</comment>
+  </data>
+  <data name="Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Heading_AchievementApplication" xml:space="preserve">
+    <value>Achievement Application</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Heading_BadgesGallery" xml:space="preserve">
+    <value>Badges Gallery</value>
+    <comment>Heading for badges gallery</comment>
+  </data>
+  <data name="Heading_MemberAchievement" xml:space="preserve">
+    <value>Member Achievement Information</value>
+    <comment>Heading for the page</comment>
+  </data>
+  <data name="Label_AAEvent" xml:space="preserve">
+    <value>Event</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Label_AALearningOutcome" xml:space="preserve">
+    <value>Learning Outcome</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Label_AARole" xml:space="preserve">
+    <value>Role</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Label_AAUploadAttachment" xml:space="preserve">
+    <value>Upload Attachments</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="SideBtnAB" xml:space="preserve">
+    <value>Award Badges</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnDb" xml:space="preserve">
+    <value>My Dashboard</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnInfo" xml:space="preserve">
+    <value>Information</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnMAApp" xml:space="preserve">
+    <value>Application Form</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnMAMat" xml:space="preserve">
+    <value>Manage Materials</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnRA" xml:space="preserve">
+    <value>Review Applications</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="Heading_AwardBadges" xml:space="preserve">
+    <value>Award Badges in Batch</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="Heading_ListOfRecentApplications" xml:space="preserve">
+    <value>List of Recent Applications</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="Link_Review" xml:space="preserve">
+    <value>Review</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="Link_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="TableHeader_Applicant" xml:space="preserve">
+    <value>Applicant</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_ApplicationID" xml:space="preserve">
+    <value>Application ID</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_Attachment" xml:space="preserve">
+    <value>Attachment(s)</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_EventName" xml:space="preserve">
+    <value>Event Name</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_LearningOutcome" xml:space="preserve">
+    <value>Learning Outcome</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_Level" xml:space="preserve">
+    <value>Level</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="ApplAttachmentNote" xml:space="preserve">
+    <value>Example: event certificate or report</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="EventNote" xml:space="preserve">
+    <value>Not in the list? Please contact your supervisor to add a new event.</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Heading_MyCourse" xml:space="preserve">
+    <value>My Course </value>
+  </data>
+  <data name="SideBtnCompletedCourse" xml:space="preserve">
+    <value>Completed Course</value>
+  </data>
+  <data name="SideBtnJoinCourse" xml:space="preserve">
+    <value>Join Course</value>
+    <comment>button at the side in OC</comment>
+  </data>
+  <data name="SideBtnMyCourse" xml:space="preserve">
+    <value>My Course</value>
+    <comment>button at the side in OC</comment>
+  </data>
+  <data name="Heading_CompletedCourses" xml:space="preserve">
+    <value>Completed Course</value>
+  </data>
+  <data name="SideBtnCourseManagement" xml:space="preserve">
+    <value>Course Management</value>
+  </data>
+  <data name="Heading_AddCourse" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Heading_CourseManagement" xml:space="preserve">
+    <value>Course Management</value>
+  </data>
+  <data name="Label_Otp_PinNumber" xml:space="preserve">
+    <value>Enter the 6-digit code</value>
+    <comment>Label for PIN input field</comment>
+  </data>
+  <data name="Link_Otp_ResendCode" xml:space="preserve">
+    <value>Didn’t receive a code? Click here to send a new code</value>
+    <comment>Link for resending OTP</comment>
+  </data>
+  <data name="Subtext_Otp_Verification" xml:space="preserve">
+    <value>Please enter the 6-digit code sent to you at {0}</value>
+    <comment>Subtext for OTP code input, with a placeholder for the phone number</comment>
+  </data>
+  <data name="Button_Otp_Verify" xml:space="preserve">
+    <value>Verify</value>
+    <comment>Button text for verifying OTP</comment>
+  </data>
+  <data name="AwardBadge_Note" xml:space="preserve">
+    <value>{0} member(s) will be awarded with</value>
+    <comment>in Award Badges page</comment>
+  </data>
+  <data name="Button_CreateBadge" xml:space="preserve">
+    <value>Create New Badge</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_IntroMedia" xml:space="preserve">
+    <value>Introduction Media</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_ManageBadge" xml:space="preserve">
+    <value>Manage Badges</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_TestimonialTemp" xml:space="preserve">
+    <value>Testimonial Certificate</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_BadgeDesc" xml:space="preserve">
+    <value>Badge Description</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_BadgeName" xml:space="preserve">
+    <value>Badge Name</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_BadgePicture" xml:space="preserve">
+    <value>Badge Icon</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_IntroMedia" xml:space="preserve">
+    <value>Introduction Material(s)</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_Points" xml:space="preserve">
+    <value>Points Awarded</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_TestimonialTemp" xml:space="preserve">
+    <value>Template Image</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Note_IntroMedia" xml:space="preserve">
+    <value>This is a guide to members about the organisation’s member achievement and level system that is displayed in the information page. We recommend including information on how to gain points and level up for your organisation’s business rules.</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Note_TestimonialTemp" xml:space="preserve">
+    <value>Use our analyzer to customize your testimonial certifica tetemplate</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_ReviewApp" xml:space="preserve">
+    <value>Application Details</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_EventName" xml:space="preserve">
+    <value>Event Name</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_ApplicantName" xml:space="preserve">
+    <value>Applicant Name</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_EndDate" xml:space="preserve">
+    <value>End Date</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_Attachments" xml:space="preserve">
+    <value>Attachment(s)</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Button_Approve" xml:space="preserve">
+    <value>Approve</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Button_Reject" xml:space="preserve">
+    <value>Reject</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Heading_CreateBadge" xml:space="preserve">
+    <value>Create Badge</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_Proceed" xml:space="preserve">
+    <value>Before we proceed...</value>
+  </data>
+  <data name="Label_Comment" xml:space="preserve">
+    <value>Comment</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Note_ProceedTip" xml:space="preserve">
+    <value>Kindly provide the following information.</value>
+  </data>
+  <data name="Placeholder_Comment" xml:space="preserve">
+    <value>Please leave a comment of not more than 100 characters explaining why the application is rejected/accepted.</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Button_ExportTestimonial" xml:space="preserve">
+    <value>Export E-Testimonial</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Button_LevelUp" xml:space="preserve">
+    <value>Level Up</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Label_Achievements" xml:space="preserve">
+    <value>Achievements</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Label_BadgesEarned" xml:space="preserve">
+    <value>Badges Earned</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Label_CoursesCompleted" xml:space="preserve">
+    <value>Courses Completed</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Label_CurrentLevel1" xml:space="preserve">
+    <value>Current Level</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Label_MemberSince" xml:space="preserve">
+    <value>Member since:</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Link_AchievementHistory" xml:space="preserve">
+    <value>Click here to view achievement application status and history</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Tip_EarnPoints" xml:space="preserve">
+    <value>Tip: You can earn points via achievement application and earning badges!</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Heading_MyDashboard" xml:space="preserve">
+    <value>My Dashboard</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Button_SatisfiedAnalysis" xml:space="preserve">
+    <value>I’m satisfied, proceed</value>
+  </data>
+  <data name="Button_Unlock" xml:space="preserve">
+    <value>Unlock Badge</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Button_UnsatisfiedAnalysis" xml:space="preserve">
+    <value>I’m unsatisfied, cancel</value>
+  </data>
+  <data name="Button_UploadAnalyze" xml:space="preserve">
+    <value>Upload and Analyze</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Button_ViewResult" xml:space="preserve">
+    <value>View Result</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_BadgeInfo" xml:space="preserve">
+    <value>Badge Information</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Heading_Step1Testimonial" xml:space="preserve">
+    <value>Step 1 of 2: All Image Analysis Result</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Heading_Step2Testimonial" xml:space="preserve">
+    <value>Step 2 of 2: Testimonial Customisation</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Link_ViewDetails" xml:space="preserve">
+    <value>View Details</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="TableHeader_Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>In MA Dashboard page</comment>
+  </data>
+  <data name="Tip_Testimonial" xml:space="preserve">
+    <value>These are the identified key fields’ position from our AI analysis. By clicking proceed, you can upload a clean template PDF and customise the testimonial certificate!</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Label_TestimonialPDF" xml:space="preserve">
+    <value>Template PDF</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="Register_Heading" xml:space="preserve">
+    <value>Register with Email</value>
+  </data>
+  <data name="Register_Info" xml:space="preserve">
+    <value>Create a new account using your email address.</value>
+  </data>
+  <data name="Button_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Link_Login" xml:space="preserve">
+    <value>Already have an account? Login here.</value>
+  </data>
+  <data name="Btn_Back" xml:space="preserve">
+    <value>Back</value>
+    <comment>General button</comment>
+  </data>
+  <data name="Label_ApplicationID" xml:space="preserve">
+    <value>Application ID</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_PreviousComments" xml:space="preserve">
+    <value>Comment(s)</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Label_Status" xml:space="preserve">
+    <value>Status</value>
+    <comment>In Review Application Detail page</comment>
+  </data>
+  <data name="Reset_Password_Heading" xml:space="preserve">
+    <value>Reset Your Password</value>
+  </data>
+  <data name="Reset_Password_Info" xml:space="preserve">
+    <value>Please enter your email to verify your account. You will need to answer your security question.</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>Forgot your password? Click here to reset</value>
+  </data>
+  <data name="Security_Answer_Correct" xml:space="preserve">
+    <value>Security answer verified! Click the button below to send a password reset email.</value>
+  </data>
+  <data name="Button_SendResetEmail" xml:space="preserve">
+    <value>Send Password Reset Email</value>
+  </data>
+  <data name="Button_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Link_BackToLogin" xml:space="preserve">
+    <value>Back to Login</value>
+  </data>
+  <data name="Link_LoginHP" xml:space="preserve">
+    <value>Click here to Login via Phone Number</value>
+  </data>
+  <data name="Link_TestimonialTemp" xml:space="preserve">
+    <value>Click here to access Template Analyzer</value>
+    <comment>In Manage Material page for MA</comment>
+  </data>
+  <data name="SideBtnTM" xml:space="preserve">
+    <value>Template Management</value>
+  </data>
+  <data name="Heading_EditBadge" xml:space="preserve">
+    <value>Edit Badge</value>
+  </data>
+  <data name="Label_NoTemplate" xml:space="preserve">
+    <value>No templates found. Click 'Add New Template' to create your first certificate template.</value>
+  </data>
+  <data name="Link_CreateAcc" xml:space="preserve">
+    <value>Sign Up for New Account</value>
+  </data>
+  <data name="stepEmail" xml:space="preserve">
+    <value>1. Enter Email</value>
+  </data>
+  <data name="stepReset" xml:space="preserve">
+    <value>3. Reset Password</value>
+  </data>
+  <data name="stepSecurity" xml:space="preserve">
+    <value>2. Security Question</value>
+  </data>
+</root>

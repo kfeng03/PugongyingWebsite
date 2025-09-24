@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplAttachmentNote" xml:space="preserve">
+    <value>例子：活动参与证书、报告等</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Button_Confirm" xml:space="preserve">
+    <value>确认</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="Button_DeleteAccount" xml:space="preserve">
+    <value>删除账号</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Button_Login" xml:space="preserve">
+    <value>登录</value>
+    <comment>Text for the "Log In" button.</comment>
+  </data>
+  <data name="Button_SaveChanges" xml:space="preserve">
+    <value>更新设置</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Button_SendOTP" xml:space="preserve">
+    <value>发送验证码</value>
+    <comment>Text for the "Send OTP" button.</comment>
+  </data>
+  <data name="Button_SetDefault" xml:space="preserve">
+    <value>设置为默认语言</value>
+    <comment>Button text for setting a default option.</comment>
+  </data>
+  <data name="Button_Submit" xml:space="preserve">
+    <value>提交</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Button_Upload" xml:space="preserve">
+    <value>上传</value>
+    <comment>Button text for uploading files.</comment>
+  </data>
+  <data name="EventNote" xml:space="preserve">
+    <value>列表中找不到活动? 请通知您的导师新增活动资料</value>
+    <comment>In Achievement Application page</comment>
+  </data>
+  <data name="Heading_AchievementApplication" xml:space="preserve">
+    <value>成就申请表格</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Heading_AwardBadges" xml:space="preserve">
+    <value>批量奖励徽章</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="Heading_BadgesGallery" xml:space="preserve">
+    <value>徽章图鉴</value>
+    <comment>Heading for badges gallery</comment>
+  </data>
+  <data name="Heading_ContentCus" xml:space="preserve">
+    <value>自定义内容</value>
+    <comment>title for content customization section</comment>
+  </data>
+  <data name="Heading_GeneralSettings" xml:space="preserve">
+    <value>基础设定</value>
+    <comment>title for general settings section</comment>
+  </data>
+  <data name="Heading_ListOfRecentApplications" xml:space="preserve">
+    <value>近期提交的申请</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="Heading_ListOfUserAccounts" xml:space="preserve">
+    <value>账号列表</value>
+    <comment>heading</comment>
+  </data>
+  <data name="Heading_MemberAchievement" xml:space="preserve">
+    <value>会员成就系统介绍</value>
+    <comment>Heading for the page</comment>
+  </data>
+  <data name="Heading_PersonalInfo" xml:space="preserve">
+    <value>我的个人资料</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Heading_UpdateAccountSecurity" xml:space="preserve">
+    <value>更新账号安全设置</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Hyperlink_AchievementDashboardText" xml:space="preserve">
+    <value>点此查看账号成就系统面板！</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Hyperlink_Achievements" xml:space="preserve">
+    <value>管理成就系统内容</value>
+    <comment>Hyperlink text for achievements customization.</comment>
+  </data>
+  <data name="Hyperlink_Courses" xml:space="preserve">
+    <value>管理课程内容</value>
+    <comment>Hyperlink text for courses customization.</comment>
+  </data>
+  <data name="Hyperlink_Events" xml:space="preserve">
+    <value>管理活动内容</value>
+    <comment>Hyperlink text for events customization.</comment>
+  </data>
+  <data name="InterestNote" xml:space="preserve">
+    <value>我们将根据您的选项推荐课程与活动</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_AAEvent" xml:space="preserve">
+    <value>活动</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Label_AALearningOutcome" xml:space="preserve">
+    <value>收获了什么</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Label_AARole" xml:space="preserve">
+    <value>担任职位</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Label_AAUploadAttachment" xml:space="preserve">
+    <value>上传附件</value>
+    <comment>In Achievement Application</comment>
+  </data>
+  <data name="Label_AreaOfInterest" xml:space="preserve">
+    <value>关注领域</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_ConfirmPassword" xml:space="preserve">
+    <value>确认密码</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_CurrentLevel" xml:space="preserve">
+    <value>当前等级</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_Email" xml:space="preserve">
+    <value>电邮</value>
+    <comment>Login page label for Email field.</comment>
+  </data>
+  <data name="Label_Font" xml:space="preserve">
+    <value>字体</value>
+    <comment>Label for selecting a font.</comment>
+  </data>
+  <data name="Label_Languages" xml:space="preserve">
+    <value>语言</value>
+    <comment>Label for language options.</comment>
+  </data>
+  <data name="Label_OrgLogo" xml:space="preserve">
+    <value>组织Logo</value>
+    <comment>Label for uploading the organization logo.</comment>
+  </data>
+  <data name="Label_OrgName" xml:space="preserve">
+    <value>组织名字</value>
+    <comment>Label for the organization name field.</comment>
+  </data>
+  <data name="Label_PhoneNumber" xml:space="preserve">
+    <value>手机号</value>
+    <comment>Login page label for Phone Number field.</comment>
+  </data>
+  <data name="Label_PinNumber" xml:space="preserve">
+    <value>验证码</value>
+    <comment>Login page label for the PIN input field.</comment>
+  </data>
+  <data name="Label_ProfilePicture" xml:space="preserve">
+    <value>头像</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_Pw" xml:space="preserve">
+    <value>密码</value>
+    <comment>Login page label for Password</comment>
+  </data>
+  <data name="Label_Role" xml:space="preserve">
+    <value>职衔</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Label_SecurityAnswer" xml:space="preserve">
+    <value>答案</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_SecurityQuestion" xml:space="preserve">
+    <value>安全问题</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="Label_Theme" xml:space="preserve">
+    <value>主题</value>
+    <comment>Label for selecting a theme.</comment>
+  </data>
+  <data name="Label_Username" xml:space="preserve">
+    <value>用户名</value>
+    <comment>In Personal Info page</comment>
+  </data>
+  <data name="Link_DeactivateAccount" xml:space="preserve">
+    <value>停用账号</value>
+    <comment>Admin soft delete acc</comment>
+  </data>
+  <data name="Link_LoginEmail" xml:space="preserve">
+    <value>点击此处通过邮箱登录</value>
+    <comment>Text for the hyperlink to login via email.</comment>
+  </data>
+  <data name="Link_ResetPassword" xml:space="preserve">
+    <value>发送重设密码链接</value>
+    <comment>Admin send Reset Password Link</comment>
+  </data>
+  <data name="Link_ResetUsingEmail" xml:space="preserve">
+    <value>忘了密码？点击此链接重置密码</value>
+    <comment>User send Reset Password Link</comment>
+  </data>
+  <data name="Link_Review" xml:space="preserve">
+    <value>审核</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="Link_SelectAll" xml:space="preserve">
+    <value>全选</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="Login1_Heading" xml:space="preserve">
+    <value>使用手机号登录</value>
+    <comment>Heading text for the Login page.</comment>
+  </data>
+  <data name="Login1_Info" xml:space="preserve">
+    <value>第一次浏览？您可以直接使用手机号登录！</value>
+    <comment>Informational text on the Login page.</comment>
+  </data>
+  <data name="Login2_Heading" xml:space="preserve">
+    <value>使用电邮地址录</value>
+    <comment>Heading text for the Login page.</comment>
+  </data>
+  <data name="Login2_Info" xml:space="preserve">
+    <value>您也可以使用手机号登录哦！</value>
+    <comment>Informational text on the Login page.</comment>
+  </data>
+  <data name="Login_Page_Title" xml:space="preserve">
+    <value>登录</value>
+    <comment>Title for the Login page.</comment>
+  </data>
+  <data name="Nav_Achievements" xml:space="preserve">
+    <value>成就</value>
+    <comment>Nav bar item for achievements.</comment>
+  </data>
+  <data name="Nav_AdminSettings" xml:space="preserve">
+    <value>管理员设定</value>
+    <comment>For admin-only settings in the nav bar.</comment>
+  </data>
+  <data name="Nav_Courses" xml:space="preserve">
+    <value>课程</value>
+    <comment>Nav bar item for courses.</comment>
+  </data>
+  <data name="Nav_Events" xml:space="preserve">
+    <value>活动</value>
+    <comment>Nav bar item for events.</comment>
+  </data>
+  <data name="Otp_PinNumber_Label" xml:space="preserve">
+    <value>输入6位验证码</value>
+    <comment>Label for PIN input field</comment>
+  </data>
+  <data name="Otp_ResendCode_Link" xml:space="preserve">
+    <value>未收到验证码？点击此处发送新验证码</value>
+    <comment>Link for resending OTP</comment>
+  </data>
+  <data name="Otp_Verification_Heading" xml:space="preserve">
+    <value>在进行更改之前...</value>
+    <comment>OTP verification page heading</comment>
+  </data>
+  <data name="Otp_Verification_Subtext" xml:space="preserve">
+    <value>请输入发送至 {0} 的6位验证码</value>
+    <comment>Subtext for OTP code input, with a placeholder for the phone number</comment>
+  </data>
+  <data name="Otp_Verify_Button" xml:space="preserve">
+    <value>验证</value>
+    <comment>Button text for verifying OTP</comment>
+  </data>
+  <data name="Password_Requirements" xml:space="preserve">
+    <value>使用至少 8 个字符，包含大写、小写字母和特殊符号。</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_1" xml:space="preserve">
+    <value>你母亲姓氏是什么？</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_2" xml:space="preserve">
+    <value>你第一只宠物的名字是什么？</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SecurityQuestion_3" xml:space="preserve">
+    <value>你最喜欢的颜色是什么？</value>
+    <comment>In Update Account Security page</comment>
+  </data>
+  <data name="SideBtnAB" xml:space="preserve">
+    <value>奖励徽章</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnAM" xml:space="preserve">
+    <value>账号管理</value>
+    <comment>button at the side in Admin Settings</comment>
+  </data>
+  <data name="SideBtnAS" xml:space="preserve">
+    <value>账号安全</value>
+    <comment>button at the side in Personal Acc Mgmt</comment>
+  </data>
+  <data name="SideBtnDb" xml:space="preserve">
+    <value>成就面板</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnInfo" xml:space="preserve">
+    <value>资讯</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnMAApp" xml:space="preserve">
+    <value>申请成就</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnMAMat" xml:space="preserve">
+    <value>内容管理</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnPI" xml:space="preserve">
+    <value>个人资料</value>
+    <comment>button at the side in Personal Acc Mgmt</comment>
+  </data>
+  <data name="SideBtnRA" xml:space="preserve">
+    <value>审核成就申请</value>
+    <comment>button at the side in MA</comment>
+  </data>
+  <data name="SideBtnWC" xml:space="preserve">
+    <value>网页管理</value>
+    <comment>button at the side in Admin Settings</comment>
+  </data>
+  <data name="TableHeader_Applicant" xml:space="preserve">
+    <value>申请者</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_ApplicationID" xml:space="preserve">
+    <value>申请ID</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_Attachment" xml:space="preserve">
+    <value>附件</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_EmailAddress" xml:space="preserve">
+    <value>电邮地址</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_EventName" xml:space="preserve">
+    <value>活动名称</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_LearningOutcome" xml:space="preserve">
+    <value>申请者的收获</value>
+    <comment>In Review Application page</comment>
+  </data>
+  <data name="TableHeader_Level" xml:space="preserve">
+    <value>等级</value>
+    <comment>In Award Badges page</comment>
+  </data>
+  <data name="TableHeader_PhoneNumber" xml:space="preserve">
+    <value>手机号</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_Role" xml:space="preserve">
+    <value>用户群</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_UserID" xml:space="preserve">
+    <value>用户ID</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="TableHeader_Username" xml:space="preserve">
+    <value>用户名</value>
+    <comment>in admin table</comment>
+  </data>
+  <data name="Welcome_Message" xml:space="preserve">
+    <value>欢迎回来，{0}!</value>
+    <comment>Dynamic greeting message.</comment>
+  </data>
+  <data name="AwardBadge_Note" xml:space="preserve">
+    <value>{0} 会员将会被赋予徽章</value>
+    <comment>in Award Badges page</comment>
+  </data>
+  <data name="Button_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="Link_CreateAcc" xml:space="preserve">
+    <value>创建新账号</value>
+  </data>
+  <data name="Link_ForgotPassword" xml:space="preserve">
+    <value>忘了密码？点此重置</value>
+  </data>
+  <data name="Link_LoginHP" xml:space="preserve">
+    <value>用手机号登入</value>
+  </data>
+  <data name="Register_Info" xml:space="preserve">
+    <value>用电邮地址创建账号</value>
+  </data>
+  <data name="SideBtnTM" xml:space="preserve">
+    <value>模板管理</value>
+    <comment>side button</comment>
+  </data>
+  <data name="Link_Login" xml:space="preserve">
+    <value>已有账号？点此登录</value>
+  </data>
+  <data name="Reset_Password_Heading" xml:space="preserve">
+    <value>重置密码</value>
+  </data>
+  <data name="Reset_Password_Info" xml:space="preserve">
+    <value>您需要和输入电邮地址以及回答安全问题以找回密码</value>
+  </data>
+  <data name="Security_Answer_Correct" xml:space="preserve">
+    <value>成功验证，点击下方链接重置密码</value>
+  </data>
+  <data name="stepEmail" xml:space="preserve">
+    <value>1. 输入电邮</value>
+  </data>
+  <data name="stepReset" xml:space="preserve">
+    <value>3. 重置密码</value>
+  </data>
+  <data name="stepSecurity" xml:space="preserve">
+    <value>2. 安全问题</value>
+  </data>
+</root>

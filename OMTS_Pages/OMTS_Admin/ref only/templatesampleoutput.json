@@ -1,0 +1,93 @@
+{
+  "elements": [
+    {
+      "id": 1,
+      "type": "image",
+      "style": {
+        "left": "0px",
+        "top": "0px",
+        "width": "797px",
+        "height": "1127px",
+        "backgroundColor": "",
+        "border": "",
+        "borderRadius": "",
+        "zIndex": "1",
+        "opacity": "",
+        "display": "block"
+      },
+      "text": null,
+      "imageUrl": "https://drive.google.com/thumbnail?id=1SMVVYCjfi1F5GdyZy-BwXh5J07nn2-_C&sz=w2000",
+      "locked": false
+    },
+    {
+      "id": 2,
+      "type": "placeholder",
+      "style": {
+        "left": "230px",
+        "top": "490px",
+        "width": "478px",
+        "height": "243px",
+        "backgroundColor": "transparent",
+        "border": "",
+        "borderRadius": "",
+        "zIndex": "2",
+        "opacity": "1",
+        "display": "block"
+      },
+      "text": null,
+      "dataField": "badges",
+      "defaultValue": "",
+      "imageUrl": null,
+      "locked": false
+    },
+    {
+      "id": 3,
+      "type": "placeholder",
+      "style": {
+        "left": "220px",
+        "top": "780px",
+        "width": "493px",
+        "height": "138px",
+        "backgroundColor": "transparent",
+        "border": "",
+        "borderRadius": "",
+        "zIndex": "3",
+        "opacity": "1",
+        "display": "block"
+      },
+      "text": null,
+      "dataField": "comments",
+      "defaultValue": "",
+      "imageUrl": null,
+      "locked": false
+    },
+    {
+      "id": 4,
+      "type": "placeholder",
+      "style": {
+        "left": "340px",
+        "top": "270px",
+        "width": "187px",
+        "height": "58px",
+        "backgroundColor": "transparent",
+        "border": "",
+        "borderRadius": "",
+        "zIndex": "4",
+        "opacity": "1",
+        "display": "block"
+      },
+      "text": null,
+      "dataField": "name",
+      "defaultValue": "",
+      "imageUrl": null,
+      "locked": false
+    }
+  ],
+  "meta": {
+    "zoomLevel": 0.5369545859305432,
+    "panOffset": {
+      "x": 0,
+      "y": 40
+    }
+  }
+}

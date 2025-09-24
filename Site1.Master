@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="fyp.Site1" %>
+<%@ Register Src="~/LoginStatusLabel.ascx" TagPrefix="A" TagName="B" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="title" runat="server" /></title>
+    
+    <!-- Default CSS (applies to all pages) -->
+    <link rel="stylesheet" type="text/css" href="GeneralStyles.css" />
+    
+    <!-- Additional CSS per page -->
+    <asp:ContentPlaceHolder ID="css" runat="server" />
+    <asp:ContentPlaceHolder ID="script" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+        <!-- Top Navigation Bar -->
+        <div class="nav-bar">
+            <span class="logo">
+                <asp:ImageButton ID="imgLogo" runat="server" 
+                    AlternateText="Org Logo" 
+                    ImageUrl="https://res.cloudinary.com/dkzzqgxce/image/upload/v1741189568/profile_placeholder_wbnidc.png/default-profile.png" 
+                    CssClass="imgLogo"
+                    OnClick="imgLogo_Click" />
+                <asp:Literal ID="litOrgName" runat="server" Text="Your Organization" />
+            </span>
+            <div class="nav-options">
+                <asp:HyperLink ID="linkAdminSettings" runat="server" 
+                    CssClass='<%# (Request.Url.AbsolutePath.Contains("Admin")) ? "active" : "" %>' 
+                    Text="<%$ Resources:Resources, Nav_AdminSettings %>" 
+                    NavigateUrl="~/OMTS_Pages/OMTS_Admin/Admin_AccList.aspx" />
+                <asp:HyperLink ID="linkCourses" runat="server" 
+                    CssClass='<%# (Request.Url.AbsolutePath.Contains("OC")) ? "active" : "" %>' 
+                    Text="<%$ Resources:Resources, Nav_Courses %>" 
+                    NavigateUrl="~/OMTS_Pages/OMTS_OC/OC_Courses.aspx" />
+                <asp:HyperLink ID="linkEvents" runat="server" 
+                    CssClass='<%# (Request.Url.AbsolutePath.Contains("EM")) ? "active" : "" %>' 
+                    Text="<%$ Resources:Resources, Nav_Events %>" 
+                    NavigateUrl="~/OMTS_Pages/OMTS_EM/EM_MyEvents.aspx" />
+                <asp:HyperLink ID="linkAchievements" runat="server" 
+                    CssClass='<%# (Request.Url.AbsolutePath.Contains("MA")) ? "active" : "" %>' 
+                    Text="<%$ Resources:Resources, Nav_Achievements %>" 
+                    NavigateUrl="~/OMTS_Pages/OMTS_MA/MA_Information.aspx" />
+            </div>
+            <div class="user-section" style="float: right;">
+                <A:B ID="ctrLabels" runat="server"/>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </form>
+</body>
+</html>
